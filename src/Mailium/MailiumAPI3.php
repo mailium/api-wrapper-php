@@ -1,10 +1,10 @@
-<?php namespace Mailium/API;
+<?php namespace Mailium\API;
 
 /*
  * Mailium API Wrapper
  * @copyright Mailium, Inc.
  * @author Mailium
- * @version 1.0.0
+ * @version 1.0.2
  * @license GNU GPL v3
  */
 
@@ -37,7 +37,7 @@ class MailiumAPI3 {
     }
 
 		if (empty($Subdomain)) {
-			$Subdomain = 'app'
+			$Subdomain = 'app';
 			return false;
 		}
 		$this->Subdomain = $Subdomain;
@@ -70,8 +70,8 @@ class MailiumAPI3 {
 
     if ($this->authorizationType == 'accesstoken')
     {
-      curl_setopt($ch, CURLOPT_HTTPHEADER, [
-        "Authorization: Bearer " . $accessToken,
+      curl_setopt($cURL, CURLOPT_HTTPHEADER, [
+        "Authorization: Bearer " . $this->accessToken,
        ]
      );
     }

@@ -23,8 +23,10 @@ composer require "mailium/php-api-wrapper"
 
 ## Demo
 
+
+Either ACCESS_TOKEN or API_KEY must be set.
 ```php
-  $mailiumApi = new Mailium\MailiumAPI3('YOUR_API3_KEY', 'SUBDOMAIN', 'json');
+  $mailiumApi = new Mailium\API\MailiumAPI3('ACCESS_TOKEN', 'YOUR_API3_KEY', 'SUBDOMAIN', 'json');
   $mailiumApi->run('List.GetList',array());
 
   print_r($mailiumApi->Result);
