@@ -4,7 +4,7 @@
  * Mailium API Wrapper
  * @copyright Mailium, Inc.
  * @author Mailium
- * @version 1.0.2
+ * @version 1.0.3
  * @license GNU GPL v3
  */
 
@@ -38,7 +38,6 @@ class MailiumAPI3 {
 
 		if (empty($Subdomain)) {
 			$Subdomain = 'app';
-			return false;
 		}
 		$this->Subdomain = $Subdomain;
 
