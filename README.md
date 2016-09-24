@@ -1,8 +1,8 @@
 # PHP wrapper class for Mailium API v3
 
-[![Latest Stable Version](https://poser.pugx.org/mailium/php-api-wrapper/v/stable.svg)](https://packagist.org/packages/mailium/php-api-wrapper) [![Monthly Downloads](https://poser.pugx.org/mailium/php-api-wrapper/d/monthly.png)](https://packagist.org/packages/mailium/php-api-wrapper) [![License](https://poser.pugx.org/mailium/php-api-wrapper/license.svg)](https://packagist.org/packages/mailium/php-api-wrapper)
+[![Latest Stable Version](https://poser.pugx.org/mailium/api-wrapper-php/v/stable.svg)](https://packagist.org/packages/mailium/api-wrapper-php) [![Monthly Downloads](https://poser.pugx.org/mailium/api-wrapper-php/d/monthly.png)](https://packagist.org/packages/mailium/api-wrapper-php) [![License](https://poser.pugx.org/mailium/api-wrapper-php/license.svg)](https://packagist.org/packages/mailium/api-wrapper-php)
 
-For more details about API v3, please visit our help section at https://github.com/mailium/php-api-wrapper
+For more details about API v3, please visit our help section at https://github.com/mailium/api-wrapper-php
 
 * [Installation](#installation)
 * [Demo](#demo)
@@ -32,4 +32,4 @@ composer require "mailium/php-api-wrapper"
 
 ## Documentation
 
-https://github.com/mailium/php-api-wrapper
+https://github.com/mailium/api-wrapper-php
