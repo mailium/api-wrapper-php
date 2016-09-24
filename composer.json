@@ -1,0 +1,27 @@
+{
+    "name": "mailium/api-wrapper-php",
+    "description": "Mailium API Wrapper for PHP",
+    "keywords": ["mailium", "api"],
+    "type": "library",
+    "homepage": "https://github.com/mailium/api-wrapper-php",
+    "license": "GNU GPL v3",
+    "authors": [
+    	{
+            "name": "Mailium",
+            "homepage": "https://github.com/mailium/api-wrapper-php/contributors"
+        }
+    ],
+    "support": {
+    	"issues": "https://github.com/mailium/api-wrapper-php/issues",
+        "source": "https://github.com/mailium/api-wrapper-php"
+	},
+    "require": {
+        "php": ">=5.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mailium\\API\\": "src/Mailium/"
+        }
+    },
+    "minimum-stability": "dev"
+}
