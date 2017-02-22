@@ -63,7 +63,7 @@ class MailiumAPI3 {
 
 		$APIURL = $this->MakeURL($APICommand);
 
-    if ($this->authorizationType == 'accesstoken') {
+    if ($this->authorizationType == 'apikey') {
       $Parameters['APIKey'] = $this->APIKey;
     }
 
